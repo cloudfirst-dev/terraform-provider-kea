@@ -12,3 +12,7 @@ fmt:
 
 test-compile:
 	go test ./...
+
+deploy:
+	make build
+	cp $$GOPATH/bin/terraform-provider-kea ~/.terraform.d/plugins/
