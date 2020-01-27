@@ -19,3 +19,6 @@ crash.log
 
 # other downloaded files
 bin/
+
+# local testing files
+main.tf
